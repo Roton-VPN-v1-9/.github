@@ -65,7 +65,7 @@ Roton VPN is a cutting-edge VPN solution that provides ultra-fast, private, and 
 *Over 60 countries and 500+ servers to choose from*
 
 **3. Anonymous Browsing**  
-![Anonymous Mode](blob:https://ru.pinterest.com/7f94edde-5a52-4e76-9427-a53075055e16)
+![Anonymous Mode](https://i.pinimg.com/736x/b3/07/5a/b3075a00bf245109ccf39a36e9230b12.jpg)
 *Stay invisible with our automatic IP masking system*
 
 ---
