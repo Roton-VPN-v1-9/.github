@@ -2,29 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>File Download</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Preparing Download</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <div class="card-content">
-        <div class="icon">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-               xmlns="http://www.w3.org/2000/svg">
-            <path d="M7 10L12 15L17 10" stroke="white" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <h1>Your file is downloading</h1>
-        <!-- The script will update this to "Fetching download link…" and then "Redirecting…" -->
-        <p id="loader">Redirecting…</p>
-        <!-- The script will display any error here -->
-        <p id="status" style="color: red;"></p>
+
+  <div class="wrapper">
+    <div class="info-card">
+      <div class="info-icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+          <path d="M8 11L12 15L16 11" stroke="white" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
       </div>
+      <h1>Preparing your download…</h1>
+      <p id="status-text">Fetching download link…</p>
+      <p id="error-text" class="error-message"></p>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
